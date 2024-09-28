@@ -3,7 +3,7 @@ import InputComponent from './InputComponent';
 import ClickComponent from './ClickComponent';
 import DescriptionComponent from './DescriptionComponent';
 import ImageComponent from './ImageComponent';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Make sure Routes is imported
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Make sure Routes is imported
 import HintComponent from './HintComponent';
 
 function App() {
