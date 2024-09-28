@@ -8,7 +8,7 @@ import HintComponent from './HintComponent';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/gdg-stand">
       <Routes>
         <Route path="/hint" element={<HintComponent />} /> 
         
