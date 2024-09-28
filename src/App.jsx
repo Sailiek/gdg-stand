@@ -12,14 +12,14 @@ function App() {
       <Routes>
         <Route path="/hint" element={<HintComponent />} /> 
         
-        
+        <Route path="/" element={(
           <>
             <ImageComponent />
             <DescriptionComponent />
             <ClickComponent />
             <InputComponent />
           </>
-        
+        )} /> 
       </Routes>
     </Router>
   );
