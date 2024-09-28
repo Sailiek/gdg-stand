@@ -9,7 +9,7 @@ function ClickComponent() {
     const newCount = count + 1;
     setCount(newCount);
 
-    if (newCount === 253) {
+    if (newCount === 26) {
       setIsSuccess(true);
     }
   }
